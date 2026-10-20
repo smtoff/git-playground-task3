@@ -5,7 +5,7 @@ const config = require("./lib/config");
 const [command, ...rest] = process.argv.slice(2);
 
 function countNotes() {
-  return `You have ${store.all().length} notes`;
+  return `You have ${store.all().length} notes.`;
 }
 
 function main() {
